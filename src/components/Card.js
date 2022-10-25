@@ -1,6 +1,6 @@
 // The first line of code import allow the script to read JSX
 import React from "react";
-
+// Deconstruct the props (properties) so you describe your template easier
 const Card = ({ name, email, id }) => {
   return (
     <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
